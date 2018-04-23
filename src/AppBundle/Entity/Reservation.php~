@@ -174,28 +174,4 @@ class Reservation
     {
         return $this->wasDone;
     }
-
-    /**
-     * Set passenger
-     *
-     * @param \AppBundle\Entity\User $passenger
-     *
-     * @return Reservation
-     */
-    public function setPassenger(\AppBundle\Entity\User $passenger)
-    {
-        $this->passenger = $passenger;
-
-        return $this;
-    }
-
-    /**
-     * Get passenger
-     *
-     * @return \AppBundle\Entity\User
-     */
-    public function getPassenger()
-    {
-        return $this->passenger;
-    }
 }

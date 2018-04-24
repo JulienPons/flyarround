@@ -19,7 +19,7 @@ class Reservation
     public function __toString()
     {
         // Return the User object with "[ID] format, when __toString is called.
-        return $this->id;
+        return (string)$this->id;
     }
     
     /*
